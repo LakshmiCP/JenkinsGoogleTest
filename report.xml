@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage
+  SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-03.dtd'>
+<coverage branch-rate="0.5" line-rate="0.857142857143" timestamp="1490953027"
+ version="gcovr 3.2">
+ <sources>
+  <source>.</source>
+ </sources>
+ <packages>
+  <package branch-rate="0.5" complexity="0.0" line-rate="0.857142857143"
+   name="">
+   <classes>
+    <class branch-rate="0.5" complexity="0.0" filename="gcovexample.cpp"
+     line-rate="0.857142857143" name="gcovexample_cpp">
+     <methods/>
+     <lines>
+      <line branch="false" hits="2" number="3"/>
+      <line branch="true" condition-coverage="50% (1/2)" hits="2" number="5">
+       <conditions>
+        <condition coverage="50%" number="0" type="jump"/>
+       </conditions>
+      </line>
+      <line branch="false" hits="0" number="7"/>
+      <line branch="false" hits="2" number="11"/>
+      <line branch="false" hits="2" number="15"/>
+      <line branch="false" hits="2" number="17"/>
+      <line branch="false" hits="2" number="18"/>
+     </lines>
+    </class>
+   </classes>
+  </package>
+ </packages>
+</coverage>
